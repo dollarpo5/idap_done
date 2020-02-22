@@ -20,22 +20,22 @@
     <div class="wrapper">
         <div class="sidenav">
             <div class="up">
-                <div class="upElement">
+                <div class="up_element">
                     <a href="#" class="notification">
                         <img src="img/User.png" alt="">
-                        <span class="badge">35</span>
+                        <span class="notification_count">35</span>
                     </a>
                 </div>
-                <div class="upElement"><img src="img/Upgrad_Icon.png" alt=""><span>Board</span>
+                <div class="up_element"><img src="img/Upgrad_Icon.png" alt=""><span>Board</span>
                 </div>
-                <div class="upElement">
+                <div class="up_element">
                     <img src="img/Projects_Icon.png" alt=""><span>Projects</span>
                 </div>
-                <div class="upElement"><img src="img/Settings_Icon.png" alt=""><span>Settings</span></div>
+                <div class="up_element"><img src="img/Settings_Icon.png" alt=""><span>Settings</span></div>
             </div>
             <div class="up">
-                <div class="upElement">&nbsp;<img src="img/Upgrad_Icon.png" alt=""><span>Upgrade</span></div>
-                <div class="upElement"><img src="img/Logout_Icon.png" alt=""><span>Logout</span></div>
+                <div class="up_element">&nbsp;<img src="img/Upgrad_Icon.png" alt=""><span>Upgrade</span></div>
+                <div class="up_element"><img src="img/Logout_Icon.png" alt=""><span>Logout</span></div>
             </div>
         </div>
 
@@ -58,15 +58,15 @@
 
             <div class="wrapper_menu">
                 <div class="folders">
-                    <div class="folsers">
-                        <div class="active_project">
+                    <div class="folders-bar">
+                        <div class="folders-bar_foder1">
                             <div class="clock"><img src="img/clock-40.png" width="25px" height="25px" alt=""></div>
-                            <a href="#" class="notification2">
+                            <a href="#" class="notification">
                                 <span>Active project</span>
-                                <span class="badge2">69</span>
+                                <span class="notification_count notification_folder">69</span>
                             </a>
                         </div>
-                        <div class="messenger">
+                        <div class="folders-bar_foder1">
                             <div class="telegram"><img src="img/app-35.png" width="25px" height="25px" alt=""></div><span>Messenger</span></div>
                     </div>
                     <div class="searchbar">
@@ -78,7 +78,7 @@
                 <div class="one_col">
                     <div class="projects_content">
                         <div class="nd_search">
-                            <div class="input2"><input type="search" class="search2" placeholder="Search Project, etc..."></div>
+                            <input type="search" class="search" placeholder="Search Project, etc...">
                             <div class="elements">
                                 <div class="functionalButton">New project<i class="fa fa-chevron-down" aria-hidden="true"></i></div><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
                             </div>
@@ -91,7 +91,7 @@
                             <div class="task">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, sapiente ipsa sit commodi voluptas quod ex numquam iure est expedita, beatae at magni vero quos quia fuga aliquid repudiandae amet?</div>
                             <!-- </div> -->
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -99,7 +99,7 @@
                             <div class="percentage">123%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -107,7 +107,7 @@
                             <div class="percentage">123%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -115,7 +115,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -123,14 +123,16 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
-                        <div class="postContainer">
-                            <div class="postpercentage">23%</div>
-                            <div class="posttask">Doing something wrong, redo.</div>
-                            <div class="setOfMans">
+                        <div class="container container--opened">
+                            <div class="percentage percentage--opened">23%</div>
+                            <div class="task task--opened">Doing something wrong, redo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis sed, rem saepe dolores officia a animi, dolor commodi impedit ipsam dicta voluptates labore? Ut optio voluptate officia nulla
+                                deleniti deserunt?
+                            </div>
+                            <div class="profilesonline">
                                 <a href="#" class="green_dot">
                                     <img src="img/avatar.png" alt="Avatar">
                                     <span class="green_dot1">.</span>
@@ -165,7 +167,7 @@
                                 </a>
                             </div>
                             <div class="somebnt">Today 15.50PM</div>
-                            <i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -173,7 +175,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -181,7 +183,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -189,7 +191,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -197,7 +199,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -205,7 +207,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -213,7 +215,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -221,7 +223,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -229,7 +231,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -237,7 +239,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -245,7 +247,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -253,7 +255,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -261,7 +263,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -269,7 +271,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -277,7 +279,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -285,7 +287,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
 
@@ -293,7 +295,7 @@
                             <div class="percentage">23%</div>
                             <div class="task">Some task</div>
                             <div class="somebnt">Some button</div>
-                            <i class="fa fa-chevron-circle-down fa-2x" id="icon_chat" aria-hidden="true"></i><i class="fa fa-search fa-2x" id="icon_chat" aria-hidden="true"></i>
+                            <i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i><i class="fa fa-search fa-2x" aria-hidden="true"></i>
 
                         </div>
                     </div>
@@ -426,7 +428,7 @@
 
         </div>
     </div>
-    </div>
+    <!-- </div> -->
 </body>
 
 </html>
