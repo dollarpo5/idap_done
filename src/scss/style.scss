@@ -73,7 +73,7 @@ html {
     }
 }
 
-.heaer {
+.header {
     background: #f1f1f1;
     border-bottom: 1px solid #cccccc;
     display: flex;
@@ -82,21 +82,19 @@ html {
     width: 93vw;
 }
 
-.first_block {
+.wrapper-header {
     display: flex;
+    .svg {
+        padding: 1.75rem;
+    }
+    .arrow-down {
+        cursor: pointer;
+        margin-top: 0.5rem;
+        color: #aacc4e;
+    }
 }
 
-.second_block {
-    display: flex;
-}
-
-.green_arrow_down {
-    cursor: pointer;
-    margin-top: 0.5rem;
-    color: #aacc4e;
-}
-
-.functionalButton {
+.button {
     border: 0.125rem solid #cccccc;
     border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem;
     font-family: 'Libre Franklin', sans-serif;
@@ -123,7 +121,7 @@ html {
 
 .folders-bar {
     display: flex;
-    &_foder1 {
+    &_app {
         font-family: 'Libre Franklin', sans-serif;
         text-align: center;
         cursor: pointer;
@@ -134,6 +132,12 @@ html {
         align-items: center;
         background-color: #f8f8f8;
         padding: 1.25rem 1.875rem;
+    }
+    .clock {
+        margin-top: -0.525rem;
+    }
+    .telegram {
+        margin-top: -0.175rem;
     }
 }
 
@@ -150,18 +154,10 @@ html {
     display: flex;
 }
 
-.nd_search {
+.second-search {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.telegram {
-    margin-top: -0.175rem;
-}
-
-.clock {
-    margin-top: -0.525rem;
 }
 
 .refersh {
@@ -208,7 +204,7 @@ html {
     flex-basis: 0%;
 }
 
-.somebnt {
+.some-button {
     border: 0.125rem solid #cccccc;
     border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem;
     font-family: 'Libre Franklin', sans-serif;
@@ -223,17 +219,17 @@ html {
     }
 }
 
-.container--opened {
+.container-opened {
     background-color: #ebebeb;
     display: flex;
 }
 
-.percentage--opened {
+.percentage-opened {
     background-color: #c5c5c5;
     color: #a0a0a0;
 }
 
-.task--opened {
+.task-opened {
     font-size: 0.875rem;
     margin: 1rem;
     flex: 1;
@@ -242,13 +238,13 @@ html {
     flex-basis: 0%;
 }
 
-.profilesonline {
+.profiles-online {
     display: inline-block;
     vertical-align: middle;
     padding: 0rem 0.625rem 0rem 0.625rem;
 }
 
-.container2 {
+.messenge-wrapper {
     width: 24vw;
     border: 0.0325rem solid #dedede;
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -265,11 +261,7 @@ html {
     color: #999;
 }
 
-svg {
-    padding: 1.75rem;
-}
-
-.two_colums {
+.two-colums {
     background: #fff;
     margin-left: 2.1875rem;
     margin-top: 2rem;
@@ -277,14 +269,14 @@ svg {
     flex-direction: row;
 }
 
-.one_col {
+.one-col {
     border: 0.0625rem solid #ccc;
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     display: flex;
     flex-direction: column;
 }
 
-.two_col {
+.two-col {
     border: 0.0625rem solid #ccc;
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     margin-left: 2.1875rem;
@@ -295,29 +287,15 @@ svg {
     display: flex;
 }
 
-.scrolll {
+.first-scroll {
     overflow-y: scroll;
     overflow-x: hidden;
     height: 41.875rem;
 }
 
-.scrolll2 {
+.second-scroll {
     overflow-y: scroll;
     height: 48.125rem;
-}
-
-.head1 {
-    border: 1px solid #ccc;
-    border-radius: 0.3125rem 0.3125rem 0 0;
-    margin: -0.0625rem;
-    font-family: 'Libre Franklin', sans-serif;
-    color: #cccccc;
-    background: #f1f1f1;
-    text-align: left;
-    line-height: 5.625rem;
-    padding-left: 1.875rem;
-    display: flex;
-    flex-direction: row;
 }
 
 .fa-plus-circle {
@@ -335,13 +313,13 @@ p {
     width: 15vw;
 }
 
-.green_dot {
+.wrapper-green-dot {
     background-color: rgba(31, 36, 40, 0);
     text-decoration: none;
     position: relative;
     display: inline-block;
     border-radius: 50%;
-    .green_dot1 {
+    .green-dot {
         position: absolute;
         font-family: 'Libre Franklin', sans-serif;
         font-size: 0.375rem;
